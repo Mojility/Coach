@@ -5,6 +5,7 @@ Feature: FizzBuzzer
 
   Scenario: Regular output
     Given I have a fizzbuzzer
+    When I give it the numbers 1 through 15
     Then it should produce output like this
       | input | output   |
       | 1     | 1        |
